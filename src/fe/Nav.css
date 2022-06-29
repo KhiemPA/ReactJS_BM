@@ -1,0 +1,31 @@
+.App .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(48,131,255);
+    color: white; 
+  }
+  .nav-link {
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+    color: white;
+  }
+  .nav li a {
+    line-height: 10vh;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+  }
+  .nav li {
+    padding: 0px 20px;
+  }
+  .nav li:hover a {
+    background-color: darkblue;
+
+  }
+
+
+  
